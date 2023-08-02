@@ -1,10 +1,10 @@
-# Spotify Clone Project
+# Simple Music Player Website
 
-This project is a simple Spotify clone that aims to replicate some of the basic features of the popular music streaming platform. It includes a user interface designed using HTML and CSS, as well as functionality implemented with JavaScript. The project allows users to play and control songs, displays song information, and features a responsive design.
+This project is a simple Music Player Website that aims to replicate some of the basic features of popular music streaming platforms. It includes a user interface designed using HTML and CSS, as well as functionality implemented with JavaScript. The project allows users to play and control songs, displays song information, and features a responsive design.
 
 ## Features
 
-- **Navigation Bar**: The navigation bar at the top includes the Spotify logo, along with links to the Home and About sections. It is designed with a sleek black background and white text for easy visibility.
+- **Navigation Bar**: The navigation bar at the top includes the Music Player logo, along with links to the Home and About sections. It is designed with a sleek black background and white text for easy visibility.
 
 - **Song List**: The main content area displays a list of songs under the title "Best of NCS - No Copyrights". Each song is presented with its cover image, song name, and a play button with a timestamp. The play button allows users to start and pause the song.
 
@@ -24,7 +24,7 @@ The JavaScript code included in the project adds interactive functionality to th
 2. Open the `index.html` file in a web browser.
 3. Interact with the interface by clicking on the play buttons, controlling the playback progress, and using the playback control icons.
 
-Please note that this project is a basic representation of Spotify's functionality and is for educational purposes. It showcases how to build a simple music player using HTML, CSS, and JavaScript.
+Please note that this project is a basic representation of music player functionality and is for educational purposes. It showcases how to build a simple music player using HTML, CSS, and JavaScript.
 
 ## Credits
 
