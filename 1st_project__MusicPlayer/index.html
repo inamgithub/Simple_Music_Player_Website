@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5555/logo1.png">
+    <link rel="stylesheet" href="style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6QSS8MJ7FB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6QSS8MJ7FB');
+</script>
+    
+</head>
+<body>
+    <nav>
+         <ul>
+            <li class="brand"><img src= "logo1.png" alt="MUSIC"><span>Music</span> </li>
+           <!--<li>Home</li>
+            <ll>About</ll>-->
+         </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+              <h1>favourites</h1>
+                <div class="songItemContainer">
+                        <div class="songItem">
+                            <img src="cover1.jpg" alt="1">
+                            <span class="songName"> let me down slowly</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="0" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+                    
+                    
+                        <div class="songItem">
+                            <img src="cover2.jpg" alt="2" style="height: 40px; border-radius: 50px;">
+                            <span class="songName">Joker</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="1" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+                    
+                    
+                        <div class="songItem">
+                            <img src="cover3.jpg" alt="3">
+                            <span class="songName">Snap</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="2" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+                    
+                    
+                        <div class="songItem">
+                            <img src="cover4.jpg" alt="4">
+                            <span class="songName">Stay</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="3" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        
+                        </div>
+                    
+                        <div class="songItem">
+                            <img src="cover5.jpg" alt="5">
+                            <span class="songName">Middle Of The Night</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="4" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+
+                        <div class="songItem">
+                            <img src="cover6.jpg" alt="6">
+                            <span class="songName">Ek Tu Hai</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="5" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+
+                        <div class="songItem">
+                            <img src="cover3.jpg" alt="music">
+                            <span class="songName">Kesriya</span>
+                            <span class="songlistplay"> <span class="timespan"> <i id="6" class="far songItemPlay fa-solid fa-circle-play"></i> </span></span>              
+                        </div>
+                    
+                 </div>
+        </div>   
+        
+        
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id = "masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+            
+        </div>
+        <div class="songInfo">
+            <img src="anim.gif" width="80px" id = "gif"><span id="masterSongName">Let Me Down Slowly</span>
+        </div>
+
+
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/957c8f8b37.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
